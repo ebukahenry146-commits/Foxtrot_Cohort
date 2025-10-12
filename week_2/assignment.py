@@ -121,17 +121,21 @@ print(ebuka)
 #     - Add "d" into the "letters" list
 # Answer no 16 here.
 
-
-
+nested = [1, [2, 3, {"letters": ["a", "b", "c"]}], 4]
+print(nested[1][2]["letters"][1])
 
 # ----------- TUPLE -----------
 
 # 17. Create a tuple of 4 animals and print the second animal.
 # Answer no 17 here.
-
+animals = ("lion", "goat", "elephant", "bear")
+print(animals[1])
 
 # 18. Try to change one value in the tuple. What happens? (Write the answer in a comment)
 # Answer no 18 here.
+
+
+
 
 
 # 19. Count how many times "cat" appears in the tuple: pets = ("cat", "dog", "cat", "bird").
