@@ -134,13 +134,15 @@ print(animals[1])
 # 18. Try to change one value in the tuple. What happens? (Write the answer in a comment)
 # Answer no 18 here.
 
-
-
-
+# animals.insert(0,"dog")
+# print(animals)
+# tuple does not allow you to change the value of an object once inserted  
 
 # 19. Count how many times "cat" appears in the tuple: pets = ("cat", "dog", "cat", "bird").
 # Answer no 19 here.
 
+pets = ("cat", "dog", "cat", "bird")
+print (pets.count("cat"))
 
 # ----------- SET -----------
 
@@ -151,3 +153,14 @@ print(animals[1])
 #     - Find the union
 #     - Find the difference (set1 - set2)
 # Answer no 20 here.
+
+set1 = {"apple", "banana", "cherry"}
+set2 = {"banana", "mango", "cherry"}
+intersect = set1.intersection(set2)
+print(intersect)
+
+union = set1.union(set2)
+print(union)
+
+difference = set1.difference(set2)
+print(difference)
