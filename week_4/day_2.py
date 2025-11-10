@@ -61,7 +61,14 @@ print(new_list)
 
 
 
+def funcA(func):
+    # Runn operation first
+    func
+    # Run another operation
 
+@funcA
+def funcB():
+    return True
 
 
 
